@@ -40,10 +40,11 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 )  {
-                    GreetingImage(
-                        message = stringResource(R.string.happy_birthday_sam),
-                        from = "From Emma"
-                    )
+//                    GreetingImage(
+//                        message = stringResource(R.string.happy_birthday_sam),
+//                        from = "From Emma"
+//                    )
+                    BusinessCard(modifier = Modifier.fillMaxSize())
                 }
             }
         }
