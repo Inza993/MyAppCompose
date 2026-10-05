@@ -44,7 +44,10 @@ class MainActivity : ComponentActivity() {
 //                        message = stringResource(R.string.happy_birthday_sam),
 //                        from = "From Emma"
 //                    )
-                    BusinessCard(modifier = Modifier.fillMaxSize())
+                    //BusinessCard(modifier = Modifier.fillMaxSize())
+                    //ComposeArticle(modifier = Modifier.fillMaxSize())
+                    //AHFrontPage(modifier = Modifier.fillMaxSize())
+                    ComposeQuadrant(modifier = Modifier.fillMaxSize())
                 }
             }
         }
