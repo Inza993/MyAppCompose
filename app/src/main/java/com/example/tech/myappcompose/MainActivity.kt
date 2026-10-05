@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
@@ -39,12 +40,17 @@ class MainActivity : ComponentActivity() {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
-                )  {
+                ) {
 //                    GreetingImage(
 //                        message = stringResource(R.string.happy_birthday_sam),
 //                        from = "From Emma"
 //                    )
-                    BusinessCard(modifier = Modifier.fillMaxSize())
+//                    BusinessCard(modifier = Modifier.fillMaxSize())
+                    DiceWithButtonAndImage(
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .wrapContentSize(Alignment.Center)
+                    )
                 }
             }
         }
